@@ -1,0 +1,85 @@
+
+header {
+  width: 100%;
+  position:fixed;
+  z-index:999;
+  background-color: #20232a;
+}
+
+.site-content {
+  margin-top: 80px;
+}
+
+#list-link > a {
+  display: inline-block;
+}
+.contact-list {
+  
+  position: relative;
+  top: -25px;
+}
+.contact-list a {
+  margin: 25px;
+}
+
+.contact-list a i{
+  font-size:80px;
+}
+
+@media only screen and (max-width: 850px) {
+  #my-github {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  header {
+    left:0px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #list-link > a {
+    display: block !important;
+  }
+  #list-link {
+    height:100%;
+  }
+}
+
+.App-logo {
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#about-me p:hover{
+  color: white;
+  font-weight: 600;
+  opacity: 0.9;
+}
+.progress {
+  opacity: 0;
+}
+
+.hiden-skill {
+  opacity: 1;
+  transition: all 1s;
+  transform: translateX(0px) !important;
+}
+.progress {
+  margin-bottom: 0px !important;
+}
