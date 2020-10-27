@@ -4,18 +4,16 @@
 * [Setup](#setup)
 
 ## General info
-This project is simple Lorem ipsum dolor generator.
+This project is my profile with simple create-react-app
 	
 ## Technologies
 Project is created with:
-* Lorem version: 12.3
-* Ipsum version: 2.33
-* Ament library version: 999
+* React: 16.13.1
+* react-router-dom: 5.1.2,
 	
 ## Setup
 To run this project, install it locally using npm:
 
 ```
-$ cd ../lorem
 $ npm install
 $ npm start
