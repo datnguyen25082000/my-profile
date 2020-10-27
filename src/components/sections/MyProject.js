@@ -75,7 +75,7 @@ const MyProject = ({
                 <p className="m-0">
                  <i class="fas fa-terminal mr-2"></i>Database: MongoDB <br/> <i class="fas fa-terminal mr-2"></i>Frontend: ReactJS <br/><i class="fas fa-terminal mr-2"></i>Backend: Express
               
-                  <br/><i class="fas fa-terminal mr-2"></i><a href="https://simple-react-express-webserver.herokuapp.com/" style= {{display: "inline-block"}} target="_blank"><br />Link website </a><br/>
+                  <br/><i class="fas fa-terminal mr-2"></i><a href="https://my-first-react-shop.herokuapp.com/" style= {{display: "inline-block"}} target="_blank"><br />Link website </a><br/>
                   <i class="fas fa-terminal mr-2"></i>Basic features: register, login, add/remove item to cart
                   </p>
               </div>
@@ -88,8 +88,7 @@ const MyProject = ({
                 <Image
                   src={require('./../../assets/images/project1.png')}
                   alt="project1"
-                  width={528}
-                  height={396} />
+                  />
               </div>
             </div>
 
@@ -116,8 +115,7 @@ const MyProject = ({
                 <Image
                   src={require('./../../assets/images/project2.png')}
                   alt="Features split 02"
-                  width={528}
-                  height={396} />
+                  />
               </div>
             </div>
 
@@ -149,8 +147,7 @@ const MyProject = ({
                 <Image
                   src={require('./../../assets/images/project3.png')}
                   alt="Features split 03"
-                  width={528}
-                  height={396} />
+                  />
               </div>
             </div>
 

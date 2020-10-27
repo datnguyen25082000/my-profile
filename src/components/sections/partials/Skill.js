@@ -9,7 +9,8 @@ const images = {
   "html": require('../../../assets/images/html.png'),
   "css": require('../../../assets/images/css.png'),
   "js": require('../../../assets/images/javascript.png'),
-  "mysql": require('../../../assets/images/mysql.jpg'),
+  "mysql": require('../../../assets/images/mysql.png'),
+  "bootstrap": require('../../../assets/images/bootstrap.png'),
 };
 
 export class Skill extends React.Component {
@@ -28,7 +29,7 @@ export class Skill extends React.Component {
       const name = this.props.name;
       const pecent = this.props.pecent;
       return(
-          
+        <div className="col-6 col-sm-4 col-md-3" style={{display: "inline-block"}}>
         <div className="tiles-item reveal-from-bottom" data-reveal-delay={this.props.delay}>
         <a href="javascript:void(0)"><div className="tiles-item-inner" onClick={(e) => this.handleClickSkill(e)}>
           <div className="features-tiles-item-header">
@@ -52,7 +53,7 @@ export class Skill extends React.Component {
         </div>
       </a>
       </div>
-
+        </div>
       )
       ;
     }

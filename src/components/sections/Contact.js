@@ -68,18 +68,18 @@ const Contact = ({
               Send message to me
               </h3>
           </div>
+         
           <div className="cta-action">
-          <Input id="email" type="email" label="Subscribe" labelHidden hasIcon="right" placeholder="Your email" className="p-3">
-          <svg width="16" height="12" xmlns="http://www.w3.org/2000/svg">
-                <path d="M9 5H1c-.6 0-1 .4-1 1s.4 1 1 1h8v5l7-6-7-6v5z" fill="#376DF9" />
-              </svg>
-            </Input>
-            <Input id="message" type="message" label="Subscribe" labelHidden hasIcon="right" placeholder="Your message" className="p-3">
-              <svg width="16" height="12" xmlns="http://www.w3.org/2000/svg">
-                <path d="M9 5H1c-.6 0-1 .4-1 1s.4 1 1 1h8v5l7-6-7-6v5z" fill="#376DF9" />
-              </svg>
-            </Input>
-            <input id="submit" type="submit" value="Send" className="py-2 px-3 mt-2" style={{borderRadius:"10px", }} />
+            <form action="https://formspree.io/xzbjnobg" method="POST">
+                <label style={{fontSize:"1rem", color: "white"}} >Your email:</label>
+                  <input type="text" style={{height: "40px", width: "300px"}} name="_replyto" />
+              
+                <label style={{fontSize:"1rem", color: "white"}}>Your message:</label>
+                  <textarea name="message" style={{height: "100px", width: "300px"}}></textarea>
+                <label></label>
+
+                <button type="submit" className="btn btn-success px-4 mt-3 py-2" >Send</button>
+              </form>
           </div>
         </div>
       </div>

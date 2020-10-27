@@ -129,7 +129,7 @@ const Header = ({
                     
                     <li id="list-link">
            
-                      <a href="javascript:void(0)" onClick= {onScrollTop = () => {document.getElementById("root").scrollIntoView({ behavior: 'smooth' });}} >About me</a>
+                      <a href="javascript:void(0)" onClick= {onScrollTop = () => {document.getElementById("about-me").scrollIntoView({ behavior: 'smooth' });}} >About me</a>
                       <a href="javascript:void(0)" onClick= {onScrollTop = () => {document.getElementById("my-skill").scrollIntoView({ behavior: 'smooth' });}}>Skills</a>
                       <a href="javascript:void(0)" onClick= {onScrollTop = () => {document.getElementById("my-project").scrollIntoView({ behavior: 'smooth' });}} >My projects</a>
                       <a href="javascript:void(0)" onClick= {onScrollTop = () => {document.getElementById("my-experience").scrollIntoView({ behavior: 'smooth' });}} >Experience</a>

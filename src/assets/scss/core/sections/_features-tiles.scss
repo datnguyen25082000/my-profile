@@ -39,7 +39,7 @@
 
 	.tiles-item {
 		flex-basis: $features-tiles-item--width;
-		max-width: $features-tiles-item--width;
+		//max-width: $features-tiles-item--width;
 		@if ( $features-tiles-items--padding__mobile != null ) {
 			padding: $features-tiles-items--padding__mobile / 2;
 		}

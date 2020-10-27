@@ -62,7 +62,7 @@ const Testimonial = ({
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0" style={{fontSize:"30px"}}>
-                  <br/><br/><br/><br/>Let's add your company name to my cv<br/><br/><br/><br/>
+                  <br/><br/><br/>Let's add your company name to my cv<br/><br/><br/>
                       </p>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
