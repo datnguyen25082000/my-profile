@@ -1,4 +1,4 @@
-## Table of contents
+:point_right:## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Setup](#setup)
